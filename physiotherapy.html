@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physical Therapy</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+  <style>
+    body {margin:2rem;font-family:Arial}
+    
+    .topnav {
+      overflow: hidden;
+      background-color:#101D4D;
+      position:fixed;
+      width: 100%;
+      top: 0;
+      padding: 20px 15px;
+    }
+    
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 35px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .active {
+      background-color: #04AA6D;
+      color: white;
+    }
+    
+    .topnav .icon {
+      display: none;
+    }
+    
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+    
+    .dropdown .dropbtn {
+      font-size: 17px;    
+      border: none;
+      outline: none;
+      color: white;
+      padding: 1px 40px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: fixed;
+      background-color: #54639C;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      padding: 20px 50px;
+    }
+    
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 14px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .topnav a:hover, .dropdown:hover .dropbtn {
+      background-color: #555;
+      color: white;
+    }
+    
+    .dropdown-content a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    
+     @media screen and (max-width: 600px) {
+      .topnav a:not(:first-child), .dropdown .dropbtn {
+        display: none;
+      } 
+      .topnav a.icon {
+        float: right;
+        display: block;
+      }
+    }
+    
+    @media screen and (max-width: 600px) {
+      .topnav.responsive {position: fixed;}
+      .topnav.responsive .icon {
+        position: fixed;
+        right: 0;
+        top: 0;
+        
+      }
+      .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+      .topnav.responsive .dropdown {float: none;}
+      .topnav.responsive .dropdown-content {position: relative;}
+      .topnav.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+      }
+    }
+    </style>
+</head>
+<body>
+
+
+
+</head>
+
+
+
+
+
+<body>
+<div class="topnav" id="myTopnav">
+  <img src="image/logggo.jpg"
+  alt="" height="40px",width=40px align="left">
+<a href="index.html"> Home</a>
+<!-- <a href="">News</a>
+<a href="#contact">Contact</a> -->
+<div class="dropdown">
+<button class="dropbtn"><a href="about us.html" >About Us </a>
+  
+</button>
+<div class="dropdown-content">
+  <a href="contact.html">Contact us</a>
+  <a href=" #miss">Mission statment</a>
+  <a href=" #core">Core Values</a>
+  <a href="#ser">Services</a>
+</div>
+</div> 
+<div class="dropdown">
+<button class="dropbtn"><a href="departmants.html" >Departments </a>
+ 
+</button>
+<div class="dropdown-content">
+  <a href="physiotherapy.html"> Physical Therapy</a>
+       
+  <a href="general.html">General Physician</a>
+   <a href="diet-and-nutrition.html">Diet and Nutrition</a>
+   <a href="opteometry.html">Optometry </a>
+   <a href="audiology.html">Audiology</a>
+   <a href="ultasound.html">Ultrasound</a>
+   <a href="speech.html">Speech Therapy</a>
+   <a href="occupational.html">Occupational Therapy</a>
+   <a href="radiology.html">Radiology</a>
+   <a href="lab.html">Lab</a>
+   <a href="ent.html" > ENT Specialist </a>
+   <a href="gynecologist.html"  > Gynecology </a>
+   <a href="child.html"  > Child Specialist </a>
+   <a href="dermatologist.html" > Dermatology </a>
+   <a href="doctors.html #op" > Opthalmology </a>
+      <a href="doctors.html #or"  > Orthopedic Surgeon</a>
+   <a href="neurologist.html"  > Neurology</a>
+   <a href="urolodist.html"  > Urology</a>
+   <a href="pulmonogist.html" > Pulmonogist</a>
+   <a href="medical.html" > Medical Specialist</a>
+</div>
+</div> 
+<div class="dropdown">
+<button class="dropbtn"><a href="doctors.html" >Doctors </a>
+ 
+</button>
+<div class="dropdown-content">
+  <a href="physiotherapy.html #doctors"> Physical Therapy</a>
+       
+  <a href="general.html #doctors">General Physician</a>
+   <a href="diet-and-nutrition.html #doctors">Diet and Nutrition</a>
+   <a href="opteometry.html #doctors">Optometry </a>
+   <a href="audiology.html #doctors">Audiology</a>
+   <a href="ultasound.html #doctors">Ultrasound</a>
+   <a href="speech.html #doctors">Speech Therapy</a>
+   <a href="occupational.html #doctors">Occupational Therapy</a>
+   <a href="ent.html" > ENT Specialist </a>
+   <a href="doctors.html #gy"  > Gynecology </a>
+   <a href="doctors.html #chi"  > Child Specialist </a>
+   <a href="doctors.html #der" > Dermatology </a> 
+   <a href="doctors.html #op" > Opthalmology </a>
+   <a href="doctors.html #or"  > Orthopedic Surgeon</a>
+   <a href="neurologist.html"  > Neurology</a>
+   <a href="urolodist.html"  > Urology</a>
+   <a href="pulmonogist.html" > Pulmonogist</a>
+   <a href="doctors.html #med"  > Medical Specialist</a>
+</div>
+</div>
+<a href="https://web.whatsapp.com/send?phone=+92-3250777555&text&app_absent=0" target="_blank" style="text-decoration:none">Online Appointment</a>
+<div class="dropdown">
+<button class="dropbtn"><a href="blogs.html" >Blogs </a>
+ 
+</button>
+<div class="dropdown-content">
+  <a href="blog1.html"> Hypertension</a>
+       
+  <a href="blog2.html">Intermittent Fasting</a>
+   <a href="blog3.html">Arthritis</a>
+ 
+</div>
+</div>
+<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+</head>
+
+    
+
+
+
+<body>
+    <section>
+        <br><br>
+        <h1>.</h1>
+        
+        <h1 class="heading"> <span>DEPARTMENT OF PHYSIOTHERAPY </span>AND REHABILITATION</h1>
+        <img src="image/physio.jpg" alt="" width=40% height= auto style="float:right">
+    <h1>
+        Physiotherapy is a vastly growing field with different diversities. It rehabilitates and boosts people by regaining and restoring their health through physical examination diagnosis, prognosis, and patient education. It’s a process in which by applying different interventions and rehabilitative protocols we help people to return to normality of life, as we all know with time ailments are getting more complicated and worst day by day, and sometimes patients are exhausted by using medicines so we physiotherapists with different specialties are here to provide you with best of best opportunities in your area.
+        Sehat Medical Complex (SMC) a prestigious platform running with the affiliation of The University of Lahore (UOL) was started in October 2021. Under the supervision of our honorable Pro-Rector Allied Health Sciences, Professor Dr. Syed Amir Gilani Director, Associate Professor Dr. Ashfaq Ahmed and Director Dr. Waseem Javaid as University of Lahore (UOL) is well renowned for its expertise in different fields.
+        </h1>>
+        <h1>Now let's introduce you to the physical therapy intervention protocols which SMC provides. There are many strings in this field like:</h1>
+        <h1>• Musculoskeletal (MSK) Physical Therapy.</h1>
+        <h1>• Neuro Physical Therapy. </h1>
+        <h1>• Pediatrics Physical Therapy. </h1>
+        <h1>• Sports Physical Therapy.</h1>
+         <h1>• Geriatrics Physical Therapy.</h1>
+         <h1>• Women's health physical therapy.</h1>
+         <h1>• Chiropractic Adjustments. </h1>
+    
+<!-- header section ends -->
+<h1 class="subhead">WE are here to keep you well.</h1>
+   <h1 class="subhead"> WE are here to boost up you all</h1>
+  <h1 class="subhead">  WE are here to make a difference </h1> 
+  <h1 class="subhead"> In people lives suffering from impairments.
+   </h1>
+<h1 class="subhead1">MUSCULOSKELETAL (MSK)PHYSICAL THERAPY:</h1>
+<h1>Moving forward as MSK includes our bone, cartilage, ligaments, tendon, and connective tissue. Our skeleton is a framework of our muscles and other soft tissues. A healthy body helps you to maintain good posture and ROM. The degenerative changes with aging involve:</h1>
+<h1>• Osteoarthritis,</h1>
+<h1>• Rheumatoid Arthritis,</h1>
+<h1>• Adhesive Capsulitis </h1>
+<h1>• Ankylosing Spondylosis</h1>
+<h1>• Gout</h1>
+<h1>• Back pain</h1>
+<h1>• Scoliosis</h1>
+<h1>• Fibromyalgia</h1>
+<h1>• Herniated Disc</h1>
+<h1>• Club foot</h1>
+<h1>• Fibrous dysplasia</h1>
+<h1>• CTS </h1>
+<h1>• Bursitis </h1>
+<h1>• Sprains</h1>
+<h1>• Strains </h1>
+<h1 class="subead1">NEURO PHYSICAL THERAPY</h1>
+<h1>It is a specialized branch of Physiotherapy which help to improve the function of patients suffering from physical impairments caused by neurological conditions which are as follow</h1>
+<h1>• Stroke</h1>
+<h1>• Multiple Sclerosis</h1>
+<h1>• Parkinson's Disease</h1>
+<h1>• Vestibular Conditions</h1>
+<h1>• Brain Tuberculosis,</h1>
+<h1>• Traumatic Brain Injury (TBI),</h1>
+<h1>• Facial or Bell's Palsy </h1>
+<h1>• Cerebral Vascular Accidents (CVA) etc. </h1>
+<h1 class="subhead1">	PEDIATRICS PHYSIOTHERAPY:</h1>
+<h1>Pediatrics Physiotherapy is a field that provides support and treatment service to children. As children are different from adults and they somewhat require different treatment strategies. The treatment for a variety of disorders including:</h1>
+<h1>• Down Syndrome</h1>
+<h1>• Cerebral Palsy(CP)</h1>
+<h1>• Delayed Developmental Milestones,</h1>
+<h1>• Congenital Birth Defects</h1>
+<h1>• Erbs Palsy,</h1>
+<h1>• Foot deformities</h1>
+<h1>• Dystrophies.</h1>
+<h1 class="subhead1">SPORTS AND EXERCISE PHYSICAL THERAPY</h1>
+<h1>Sports and Exercise Physiotherapists are involved in the prevention and management of injuries resulting from sport participation at all ages and levels of ability. These specialized physiotherapists provide evidence-based advice on safe participation in sport and exercise. Furthermore, they promote an active lifestyle to aid individuals in improving and maintaining their quality of life. They also play a marvelous role in helping athletes of all ages to promote strengthening abilities and enhance their work performance.</h1>
+
+<h1>• Sprains and fractures of ankles and knees</h1>
+<h1>• Facial injuries</h1>
+<h1>• Broken or Dislocated Fingers</h1>
+<h1>• Head injuries (concussions and fractures)</h1>
+<h1>• Shoulder fractures or dislocation</h1>
+<h1>• Dislocated knees</h1>
+<h1>• Traumatic head injuries </h1>
+<h1 class="subhead1"> GERIATRICS PHYSIOTHERAPY</h1>
+<h1>Geriatric Physical therapy is important to provide awareness about the strength and stability of Bones, Muscles, and Joints. It helps to perform daily activities of living in a patient suffering from Alzheimer’s Disease, Parkinson's Disease, and Osteoporosis. We help these patients with the optimized aging process by restoring their motilities and improving their functions.</h1>
+<h1 class="subhead1"> WOMEN HEALTH PHYSIOTHERAPY</h1>
+<h1>Women Health Physiotherapy is a non-surgical treatment for women. It educates and empower women throughout all ages and stages of their lives. Through young adulthood, pregnancy, postpartum, menopause, pre/post-surgery, after cancer diagnosis/treatment. 
+    Womens health physiotherapists treat women with bladder, bowel and sexual problems, and specialize in patients with pelvic floor dysfunction. They also treat patients who are pregnant, with the goal of reducing pain and keeping women fit and active throughout pregnancy. 
+    It teaches women how their bodies work properly, how to overcome injury, recover and retrain, how to find their core and inner strength, what strategy they should adopt to being more healthy and fit.
+    </h1>
+    <h1> It treats a wide range of women's needs: </h1>
+
+<h1>• Pregnancy</h1>
+<h1>• Abdominal separation</h1>
+<h1>• Pelvic floor prolapses</h1>
+<h1>• Urinary incontinence</h1>
+<h1>• Constipation</h1>
+<h1>• Antenatal Soft Tissue Release</h1>
+<h1 class="subhead1">CHIROPRACTIC</h1>
+<h1>The chiropractor is a health care professional that cares for patients with musculoskeletal system it’s a form of alternative medicine concerned with the diagnosis, treatment and prevention of mechanical disorders of the, especially of the spine. It manages back and neck pain which emphasis on treatment through manual adjustment and manipulation of spine. It focuses on healing, relaxing and providing overall well-being.</h1>
+<h1 class="subhead1">TREATMENT PROTOCOLS:</h1>
+<h1>All diseases of this type are treated with the latest protocols, technology and evidence-based inventions.</h1>
+<h1 class="subhead1">It's about Sehat Medical Complex physiotherapy department. Here it welcomes you all to join us for exceptional care and treatment protocols for the improvement and betterment of yourselves as heath is our foremost priority and we try our best to promote the well-being of the patients.</h1>
+<h1 class="subhead1">BOOK YOUR APPOINTMENTS FOR WORLD BEST PHYSIOTHERAPY AT SEHAT MEDICAL COMPLEX (SMC)</h1>
+
+<section class="doctors" id="doctors">
+
+    <h1 class="heading"> our <span>doctors</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+             <img src="image/dr waseem.jpg" alt="">
+            <h3>Dr.Waseem Javaid</h3>
+            <span>Director</span>
+            <br>
+            <!-- <SPAN>DDNS, M.Phill HND*</SPAN> -->
+            <a href="tel:0423-35410050 " class="btn">Call us</span> </a>
+                            <a href="https://web.whatsapp.com/send?phone=+92-3250777555&text&app_absent=0" class="btn">Online Appointment </a>
+                            <a href="dr waseem.html" class="btn">More About Dr </a>
+            
+
+            
+            <div class="share">
+              
+            </div>
+        </div>
+        <div class="box">
+            <img src="image/dr imran ghafoor.jpeg" alt="">
+                 <h3>Dr. Imran Gafoor</h3>
+                 <span>Consultant Physiotherapist</span>
+                 <br>
+                 <SPAN> DPT, MPhil, Phd*</SPAN>
+                 <br><br>
+                 <a href="tel:0423-35410050 " class="btn">Call us</span> </a>
+                 <a href="https://web.whatsapp.com/send?phone=+92-3250777555&text&app_absent=0" class="btn">Online Appointment </a>
+                  <div class="share">
+                  
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/dr hassan javed.jpeg" alt="">
+                     <h3>Dr. Hassan Javed</h3>
+                     <span>Senior Physiotherapist</span>
+                     <br>
+                     <SPAN>DPT, M.Phill MSK</SPAN>
+                     <br>
+                     <a href="tel:0423-35410050 " class="btn">Call us</span> </a>
+                            <a href="https://web.whatsapp.com/send?phone=+92-3250777555&text&app_absent=0" class="btn">Online Appointment </a>
+                      <div class="share">
+                      
+                    </div>
+                </div>
+        <div class="box">
+            <img src="image/dr aqeel saeed.jpeg" alt="">
+            <h3>Dr.Aqeel Saeed</h3>
+            <span>Senior Physiotherapist</span>
+            <br>
+            <SPAN>DPT, MS NMT</SPAN>
+            <br><br>
+            <a href="tel:0423-35410050 " class="btn">Call us</span> </a>
+            <a href="https://web.whatsapp.com/send?phone=+92-3250777555&text&app_absent=0" class="btn">Online Appointment </a>
+           
+
+           
+           <div class="share">
+             
+           </div>
+       </div>
+       <div class="box">
+        <img src="image/dr anam akram.jpeg" alt="">
+        <h3>Dr.Anam Akram</h3>
+        <span>Physiotherapist</span>
+        <br>
+        <SPAN>DPT, MS MSK*</SPAN>
+        <br><br>
+        <a href="tel:0423-35410050 " class="btn">Call us</span> </a>
+                            <a href="https://web.whatsapp.com/send?phone=+92-3250777555&text&app_absent=0" class="btn">Online Appointment </a>
+         <div class="share">
+         
+       </div>
+   </div>
+   <div class="box">
+   <img src="image/dr zunaira ahmed.jpeg" alt="">
+        <h3>Dr. Feroza</h3>
+        <span>Physiotherapist</span>
+        <br>
+        <SPAN>DPT, MS OMPT*</SPAN>
+        <br><br>
+        <a href="tel:0423-35410050 " class="btn">Call us</span> </a>
+                            <a href="https://web.whatsapp.com/send?phone=+92-3250777555&text&app_absent=0" class="btn">Online Appointment </a>
+         <div class="share">
+         
+       </div>
+   </div>
+   
+
+   <div class="box">
+    <img src="image/dr  ahmad bilal.jpeg" alt="">
+    <h3>Dr.Ahmad Bilal</h3>
+    <span>Physiotherapist</span>
+    <br>
+    <SPAN>DPT, MS NMPT*</SPAN>
+    <br><br>
+    <a href="tel:0423-35410050 " class="btn">Call us</span> </a>
+    <a href="https://web.whatsapp.com/send?phone=+92-3250777555&text&app_absent=0" class="btn">Online Appointment </a>
+   
+
+   
+   <div class="share">
+     
+   </div>
+</div>
+<div class="box">
+    <img src="image/dr hafiz bahauddin.jpeg" alt="">
+    <h3>Dr.Hafiz Bahauddin</h3>
+    <span>Physiotherapist</span>
+    <br>
+    <SPAN>DPT, MS MSK*</SPAN>
+    <br><br>
+    <a href="tel:0423-35410050 " class="btn">Call us</span> </a>
+    <a href="https://web.whatsapp.com/send?phone=+92-3250777555&text&app_absent=0" class="btn">Online Appointment </a>
+   
+
+   
+   <div class="share">
+     
+   </div>
+</div>
+<div class="box">
+    <img src="image/dr maham pervaiz.jpeg" alt="">
+    <h3>Dr.Maham Pervaiz</h3>
+    <span>Physiotherapist</span>
+    <br>
+    <SPAN>DPT</SPAN>
+    <br><br> <a href="tel:0423-35410050 " class="btn">Call us</span> </a>
+    <a href="https://web.whatsapp.com/send?phone=+92-3250777555&text&app_absent=0" class="btn">Online Appointment </a><a href="tel:0325-0777555" class="btn">Book us  </a>
+   
+
+   
+   <div class="share">
+     
+   </div>
+</div>
+<div class="box">
+    <img src="image/dr ahmed shahbaz.jpeg" alt="">
+   <h3>Dr.Ahmed Shahbaz</h3>
+    <span>Physiotherapist</span>
+    <br>
+    <SPAN>DPT</SPAN>
+    <br><br>
+    <a href="tel:0423-35410050 " class="btn">Call us</span> </a>
+                            <a href="https://web.whatsapp.com/send?phone=+92-3250777555&text&app_absent=0" class="btn">Online Appointment </a>
+   
+
+   
+   <div class="share">
+     
+   </div>
+</div>
+<div class="box">
+    <img src="image/dr zunaira1.jpeg" alt="">
+    <h3>Dr.Zunaira Ahmad</h3>
+    <span>Physiotherapist</span>
+    <br>
+    <SPAN>DPT,MS NMPT*</SPAN>
+    <br><br>
+    <a href="tel:0423-35410050 " class="btn">Call us</span> </a>
+    <a href="https://web.whatsapp.com/send?phone=+92-3250777555&text&app_absent=0" class="btn">Online Appointment </a>
+   
+   
+
+   
+   <div class="share">
+     
+   </div>
+</div>
+
+
+<div class="box">
+    <img src="image/dr maham ali.jpeg" alt="">
+   <h3>Dr.Maham Ali</h3>
+   <span>Physiotherapist<</span>
+   <br>
+   <SPAN>DPT, MS OMPT*</SPAN>
+   <br><br>
+   <a href="tel:0423-35410050 " class="btn">Call us</span> </a>
+                            <a href="https://web.whatsapp.com/send?phone=+92-3250777555&text&app_absent=0" class="btn">Online Appointment </a>
+
+   
+   <div class="share">
+     
+   </div>
+  
+</div>
+<div class="box">
+    <img src="image/Dr izzah ijaz.jpeg" alt="">
+   <h3>Dr Izzah Ijaz</h3>
+   <span>Physiotherapist</span>
+   <br>
+   <SPAN>DPT, OMPT*</SPAN>
+   <br><br>
+   <a href="tel:0423-35410050 " class="btn">Call us</span> </a>
+   <a href="https://web.whatsapp.com/send?phone=+92-3250777555&text&app_absent=0" class="btn">Online Appointment </a>
+
+   
+   <div class="share">
+     
+   </div>
+   </div>
+
+        <br><br>
+        
+        <h1 class="heading"> <span >Our</span>Setup </h1>
+        <br><br>
+        <img src="image/pt11.jpeg" alt=""width="70%" height="auto">
+       
+        <img src="image/pt4.jpeg" alt=""width="70%" height="auto">
+        <img src="image/pt10.jfif" alt=""width="70%" height="auto">
+        <img src="image/pt2.jpeg" alt="" width="70%" height="auto">
+        
+      
+
+    </div>
+
+</section>
+
+<!-- home section starts  -->
+
+   
+</section>
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>QUICK LINKS</h3>
+            <a href="index.html #home"  style="text-decoration:none">Home</a>
+            <a href="departmants.html"  style="text-decoration:none">Departments</a>
+            <a href="about us.html"  style="text-decoration:none">About</a>
+             <a href="doctors.html"  style="text-decoration:none">Doctors</a>
+             <a href="https://web.whatsapp.com/send?phone=+92-3250777555&text&app_absent=0" target="_blank" style="text-decoration:none">Online Appointment</a>
+            <a href="index.html #book"  style="text-decoration:none">Book</a>
+            <a href="blogs.html"  style="text-decoration:none">Blogs</a>
+        </div>
+
+        <div class="box">
+            <h3>OUR SERVICES</h3>
+            <a href="physiotherapy.html"  style="text-decoration:none"> <i class="fas fa-chevron-right"></i> Physical Therapy </a>
+            <a href="diet-and-nutrition.html"  style="text-decoration:none"> <i class="fas fa-chevron-right"></i> Diet and nutrition </a>
+            <a href="opteometry.html"  style="text-decoration:none"> <i class="fas fa-chevron-right"></i> Optometry </a>
+            <a href="speech.html"  style="text-decoration:none"> <i class="fas fa-chevron-right"></i> Speech Therapy </a>
+            <a href="general.html"  style="text-decoration:none"> <i class="fas fa-chevron-right"></i> General Physician </a>
+            <a href="occupational.html"  style="text-decoration:none"> <i class="fas fa-chevron-right"></i> Occupational Therapy </a>
+          <a href="lab.html"  style="text-decoration:none"> <i class="fas fa-chevron-right"></i> Sampling Lab </a>
+          <a href="radiology.html"  style="text-decoration:none"> <i class="fas fa-chevron-right"></i> Radiologist </a>
+            <a href="ultasound.html"  style="text-decoration:none"> <i class="fas fa-chevron-right"></i> Ultrasound </a>
+            <a href="audiology.html"  style="text-decoration:none"> <i class="fas fa-chevron-right"></i> Audiology </a>
+            <a href="ent.html"  style="text-decoration:none"> <i class="fas fa-chevron-right"></i> ENT Specialist </a>
+            <a href="gynecologist.html"  style="text-decoration:none"> <i class="fas fa-chevron-right"></i> Gynecology </a>
+            <a href="child.html"  style="text-decoration:none"> <i class="fas fa-chevron-right"></i> Child Specialist </a>
+            <a href="dermatologist.html"  style="text-decoration:none"> <i class="fas fa-chevron-right"></i> Dermatology </a>
+            <a href="ophtalmologist.html"  style="text-decoration:none"> <i class="fas fa-chevron-right"></i> Opthalmology </a>
+            <a href="orthopadic.html"  style="text-decoration:none"> <i class="fas fa-chevron-right"></i> Orthopedic Surgeon</a>
+            <a href="neurologist.html"  style="text-decoration:none"> <i class="fas fa-chevron-right"></i> Neurology</a>
+            <a href="urolodist.html"  style="text-decoration:none"> <i class="fas fa-chevron-right"></i> Urology</a>
+            <a href="pulmonogist.html"  style="text-decoration:none"> <i class="fas fa-chevron-right"></i> Pulmonogist</a>
+            <a href="medical.html"  style="text-decoration:none"> <i class="fas fa-chevron-right"></i>Medical Specialist</a>
+        </div>
+
+        <div class="box">
+            <h3>CONTACT INFO</h3>
+            <a href="tel:0423-35410050  "  style="text-decoration:none"> <i class="fas fa-phone"></i> tel:0423-35410050 </a>
+            <a href="tel:0325-0777555"  style="text-decoration:none"> <i class="fas fa-phone"></i> 0325-0777555</i> </a>
+            <a href="info.hw@smc.uol.edu.pk"  style="text-decoration:none"> <i class="fas fa-envelope"></i> info.hw@smc.uol.edu.pk</a>
+        
+            <!-- <a href="#"> <i class="fas fa-map-marker-alt"></i>  </a> -->
+        </div>
+
+        <div class="box">
+            <h3>FOLLOW US</h3>
+            <a href="https://www.facebook.com/Sehat-Medical-Complex-102527892306074"  style="text-decoration:none"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="https://youtube.com/channel/UC_1_9j7vL0L6vv71ZaANbzQ"  style="text-decoration:none"><i class="fab fa-youtube"></i>Youtube </a>
+            <a href="https://instagram.com/sehatmedicalcomplex?igshid=YmMyMTA2M2Y="  style="text-decoration:none"> <i class="fab fa-instagram"></i> instagram </a>
+            <!-- <a href=""> <i class="fab fa-linkedin"></i> linkedin </a> -->
+            
+        </div>
+
+    </div>
+
+
+</section>
+
+
+</body>
+</html>
